@@ -1,0 +1,137 @@
+.h2{
+    background-color: red;
+    height: 70px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+.quizContainer{
+    height: 350px;
+    width: 85%;
+    background-color:salmon;
+    font-family: 'Poppings', sans-serif;
+    border-radius: 15px;
+    margin-left: 50px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.btn{
+    width: 7%;
+    border: 10px solid red;
+    border-radius: 30px;
+    color: whitesmoke;
+    background-color: red;
+    margin: 50px;
+}
+ol{
+    list-style: lower-alpha;
+}
+.option{
+    background-color: darkgrey;
+    border: 1px solid blue;
+    border-radius: 20px;
+    border-bottom-color: aquamarine;
+    height: 30px;
+    width: 200px;
+    gap: 10rem;
+    text-align: center;
+    text-decoration-color: lightblue;
+    font-size: large;
+    font-weight: 800;
+    position: relative;
+    filter: drop-shadow(0);
+}
+.option:hover{
+    filter: drop-shadow(53) ;
+    transition: 0.5s;
+    background-color: firebrick;
+    color: black;
+} 
+
+.question{
+    font-size: larger;
+    height: 40px;
+    font-weight: 950px;
+
+}
+#body{
+    color: black;
+}
+.darkmode{
+    background-color:lavender;
+    color: aliceblue;
+}
+.prev{
+    width: 7%;
+    border: 10px solid red;
+    border-radius: 30px;
+    color: whitesmoke;
+    background-color: red;
+    margin: 50px;
+}
+.scoreboard{
+    background-position: center;
+    background-color: antiquewhite;
+    background-size: cover;
+    display: none;
+    height: 600px;
+    width: 500px;
+}
+#score-title{
+    color: black;
+    font-weight: 950;
+    font-size: xx-large;
+    font-family: 'Poppings', sans-serif;
+}
+#score-btn{
+    width: 50%;
+    border: 20px solid red;
+    border-radius: 30px;
+    color: white;
+    background-color: red;
+    /* margin: 50px; */
+}
+#check-answer{
+    width: 50%;
+    border: 20px solid red;
+    border-radius: 30px;
+    color: white;
+    background-color: red;
+    /* margin: 50px; */
+}
+.change{
+    width: 7%;
+    border: 10px solid red;
+    border-radius: 30px;
+    color: whitesmoke;
+    background-color: red;
+    margin: 10px;
+
+}
+h1{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    color:crimson;
+}
+ #answerBank{
+    background-position: center;
+    background-color: antiquewhite;
+    background-size: cover;
+    display: none;
+    height: 300px;
+    width: 290px;
+ }
+ #stat{
+    color: aquamarine;
+    font-size: large;
+ }
+ .num{
+    list-style:       lower-roman;
+ }
+ h2{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    color:black;
+ }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body id="body">
+    <h1 class="h2" >Winner's Quiz</h1>
+    <button class="change">Change</button>
+    <div class="quizContainer">
+        <h4 class="question"></h4>
+        <ol class="opt">
+            <li class="option"> <span id="option0" onclick="calcScore(this)"> </span> </li> <br>
+            <li class="option"> <span id="option1" onclick="calcScore(this)"> </span> </li> <br>
+            <li class="option"> <span id="option2" onclick="calcScore(this)"> </span> </li> <br>
+            <li class="option"> <span id="option3" onclick="calcScore(this)"> </span> </li> <br>
+        </ol>
+
+        <h4 id="stat"></h4>
+        <button type=" button" class="prev"> Previous</button>
+        <button type="button" class="btn"> Next</button>
+    </div>
+    
+    <center>
+    <div class="scoreboard">
+        <h1 id="score-title">Your Score</h1>
+        
+        <h1 id="points"></h1>/ <br> <br> <br> <br>
+        <button type="button" id="score-btn" > Back to Quiz</button> <br><br>
+        <button type="button" id="check-answer" > Check Answers</button>
+    </center>
+    </div>
+
+    <center>
+    <div id="answerBank">
+        <h2> Answers :</h2>
+        <ol type="1" id="answers" class="num">
+
+        </ol>
+        <button type="button" id="score-btn" > Back to Quiz</button>
+
+    </div>
+</center>
+    <script src="quiz.js">
+
+    </script>
+</body>
+</html>
